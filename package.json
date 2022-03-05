@@ -1,0 +1,29 @@
+{
+  "name": "jest-spy-on-issue",
+  "version": "1.0.0",
+  "description": "sample code that shows how jest spy doesn't call the real function after the first test",
+  "main": "index.js",
+  "scripts": {
+    "babel-test": "jest ./test/scopeCorrectedCode.test.ts --config ./babel-jest.config.js",
+    "ts-jest-test": "jest ./test --config ./ts-jest.config.js",
+    "test-file": "jest ./test/scopeCorrectedCode.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalebCourier/jest-spy-on-issue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CalebCourier/jest-spy-on-issue/issues"
+  },
+  "homepage": "https://github.com/CalebCourier/jest-spy-on-issue#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.6.2"
+  }
+}
